@@ -6,7 +6,21 @@ Console.WriteLine("[E]xit");
 
 string userInput = Console.ReadLine();
 Console.WriteLine("User input: " + userInput);
+userInput = "ABC";
 
+var isUserInputAbc = userInput == "ABC";
+var isUserInputNotAbc = userInput != "ABC";
+var isUserInputNotAbc2 = !(userInput == "ABC");
+
+var number = 10;
+
+var isLargerThan5 = number > 5;
+var isSmallerThan10 = number < 10;
+var isLargerOrEqualTo10 = number >= 10;
+var isSmallerOrEqualTo6 = number <= 6;
+
+
+Console.ReadKey();
 // string userInput = "A";
 // Console.WriteLine(userInput);
 //
@@ -17,7 +31,7 @@ Console.WriteLine("User input: " + userInput);
 // number = 6;
 //
 // Console.WriteLine(number);
-
+//
 //
 // int a = 10;
 // int b = 25;
@@ -36,4 +50,3 @@ Console.WriteLine("User input: " + userInput);
 // Console.WriteLine(word + a);
 //
 
-Console.ReadKey();
