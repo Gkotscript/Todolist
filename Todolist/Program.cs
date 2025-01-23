@@ -19,8 +19,23 @@ var isSmallerThan10 = number < 10;
 var isLargerOrEqualTo10 = number >= 10;
 var isSmallerOrEqualTo6 = number <= 6;
 
-vat isLargerThan4AndSmallerThan9 = number > 4 && number < 9;
+var isLargerThan4AndSmallerThan9 = number > 4 && number < 9;
 var isEqualTo2OrLargerThan6 = number == 2 || number == 6;
+
+if (userInput.Length <= 3)
+{
+    Console.WriteLine("User input is short");
+}
+else if (userInput.Length < 10)
+{
+    Console.WriteLine("User input is medium");
+}
+else
+{
+    Console.WriteLine("User input is long");
+}
+
+ 
 Console.ReadKey();
 // string userInput = "A";
 // Console.WriteLine(userInput);
