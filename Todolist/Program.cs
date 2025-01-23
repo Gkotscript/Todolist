@@ -19,7 +19,8 @@ var isSmallerThan10 = number < 10;
 var isLargerOrEqualTo10 = number >= 10;
 var isSmallerOrEqualTo6 = number <= 6;
 
-
+vat isLargerThan4AndSmallerThan9 = number > 4 && number < 9;
+var isEqualTo2OrLargerThan6 = number == 2 || number == 6;
 Console.ReadKey();
 // string userInput = "A";
 // Console.WriteLine(userInput);
