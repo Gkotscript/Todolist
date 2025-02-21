@@ -66,3 +66,39 @@ Console.ReadKey();
 // Console.WriteLine(word + a);
 //
 
+
+var userChoice = Console.ReadLine();
+bool isLong = IsLong(userChoice);
+
+var result = Add(10, 5);
+Console.WriteLine("10 + 5 = " + result);
+
+// // the below is example of poor quality code 
+// if (userChoice == "S")
+// {
+//     PrintSelectedOption("See all TODOs");
+// }
+// else if (userChoice == "A")
+// {
+//     PrintSelectedOption("Add a TODO");
+// }
+// else if (userChoice == "R")
+// {
+//     PrintSelectedOption("Remove a TODO");
+// }
+// else if (userChoice == "E")
+// {
+//     PrintSelectedOption("Exit");
+// }
+// Console.ReadKey();
+
+// void PrintSelectedOption(string selectedOption)
+// {
+//     Console.WriteLine($"Selected option: " + selectedOption);
+// }
+
+int Add(int a, int b)
+{
+    return a + b;
+}
+
