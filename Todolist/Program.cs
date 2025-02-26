@@ -1,114 +1,73 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("[S]ee all TODO's");
-Console.WriteLine("[A]dd a TODO");
-Console.WriteLine("[R]emove a TODO");
-Console.WriteLine("[E]xit");
-
-// string userInput = Console.ReadLine();
-// Console.WriteLine("User input: " + userInput);
-// userInput = "ABC";
+﻿// Console.WriteLine("Hello, World!");
+// Console.WriteLine("What would you like to do?");
+// Console.WriteLine("[S]ee all TODO's");
+// Console.WriteLine("[A]dd a TODO");
+// Console.WriteLine("[R]emove a TODO");
+// Console.WriteLine("[E]xit");
 //
-// var isUserInputAbc = userInput == "ABC";
-// var isUserInputNotAbc = userInput != "ABC";
-// var isUserInputNotAbc2 = !(userInput == "ABC");
-//
-// var number = 10;
-//
-// var isLargerThan5 = number > 5;
-// var isSmallerThan10 = number < 10;
-// var isLargerOrEqualTo10 = number >= 10;
-// var isSmallerOrEqualTo6 = number <= 6;
-//
-// var isLargerThan4AndSmallerThan9 = number > 4 && number < 9;
-// var isEqualTo2OrLargerThan6 = number == 2 || number == 6;
-//
-// if (userInput.Length <= 3)
-// {
-//     Console.WriteLine("User input is short");
-// }
-// else if (userInput.Length < 10)
-// {
-//     Console.WriteLine("User input is medium");
-// }
-// else
-// {
-//     Console.WriteLine("User input is long");
-// }
-//
-//  
-// Console.ReadKey();
-// string userInput = "A";
-// Console.WriteLine(userInput);
-//
-// userInput = "ABC";
-// Console.WriteLine(userInput);
-//
-// int number;
-// number = 6;
-//
-// Console.WriteLine(number);
-//
-//
-// int a = 10;
-// int b = 25;
-// ++a;
-// --b;
-// Console.WriteLine(a);
-// Console.WriteLine(b);
-//
-// Console.WriteLine("Addition: " + (a + b));
-// Console.WriteLine("Subtrsaction: " + (a - b));
-// Console.WriteLine("Multiplication: " + a * b);
-// Console.WriteLine("Division: " + a / b);
-// Console.WriteLine("john" + " " + "Smith");
-//
-// string word = "abc";
-// Console.WriteLine(word + a);
-//
-
-
 // var userChoice = Console.ReadLine();
-// bool isLong = IsLong(userChoice);
 //
-// bool IsLong(string input)
+// switch (userChoice)
 // {
-//     return input.length > 10;
+//     case "S":
+//     case "s":
+//         PrintSelectedOption("See all TODOs");
+//         Console.WriteLine("Extra content");
+//         break;
+//     case "A":
+//     case "a":
+//         PrintSelectedOption("Add a TODO");
+//         break;
+//     case "R":
+//     case "r":
+//         PrintSelectedOption("Remove a TODO");
+//         break;
+//     case "E":
+//     case "e":
+//         PrintSelectedOption("Exit");
+//         break;
+//     default:
+//         Console.WriteLine("invalid choice");
+//         break;
 // }
 
-var result = Add(10, 5);
-Console.WriteLine("10 + 5 = " + result);
 
-Console.WriteLine("provide a number");
-string userInput = Console.ReadLine();
-int number = int.Parse(userInput);
-Console.WriteLine(number);
 
-// // the below is example of poor quality code 
-// if (userChoice == "S")
+// grading app
+// Console.WriteLine("input the points");
+// char convertPointsToGrade(int points)
 // {
-//     PrintSelectedOption("See all TODOs");
-// }
-// else if (userChoice == "A")
-// {
-//     PrintSelectedOption("Add a TODO");
-// }
-// else if (userChoice == "R")
-// {
-//     PrintSelectedOption("Remove a TODO");
-// }
-// else if (userChoice == "E")
-// {
-//     PrintSelectedOption("Exit");
-// }
-// Console.ReadKey();
-
-// void PrintSelectedOption(string selectedOption)
-// {
-//     Console.WriteLine($"Selected option: " + selectedOption);
+//     switch(points)
+//     {
+//         case 10:
+//         case 9:
+//             return 'A';
+//         case 8:
+//         case 7:
+//         case 6:
+//             return 'B';
+//         case 5:
+//         case 4:
+//         case 3:
+//             return 'C';
+//         case 2:
+//         case 1:
+//             return 'D';
+//         case 0:
+//             return 'E';
+//         default:
+//             return '!';
+//     }
 // }
 
-int Add(int a, int b)
+
+
+var number = 0;
+while (number < 10)
 {
-    return a + b;
+    number++;
+    Console.WriteLine(number);
 }
+Console.WriteLine("The loop is finished");
+Console.ReadLine();
 
